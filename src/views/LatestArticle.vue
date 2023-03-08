@@ -3,15 +3,15 @@
 export default {
   data() {
     return {
-      menus: [
-        'Article',
-        'Forum',
-        'Video',
-        'About'
+      items: [
+        'A',
+        'B',
+        'C',
       ]
     }
   },
 }
+import ArticleItem from '@/components/ArticleItem.vue';
 </script>
 
 <template>
@@ -22,8 +22,9 @@ export default {
     <div class="mt-[4px] text-[white] font-normal text-xl">
         Kumpulan artikel terbaru seputar kampus, teknologi, dan tren terkini.
     </div>
+    
     <div class="gap-5">
-
+      <ArticleItem />
     </div>
   </div>
 </template>
