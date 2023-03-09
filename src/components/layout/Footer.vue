@@ -1,17 +1,19 @@
 <script lang="ts">
+  import logoSVG from '../../assets/Logo.svg';
 export default {
   data() {
     return {
-      
+      logoSVG: logoSVG
     }
   },
 }
+
 </script>
 
 <template>
 <div class='w-full px-32 flex items-center gap-12 h-[408px] bg-[white]'>
   <div class="flex flex-col ml-20">
-    <img src="../../assets/Logo.svg" class="w-[223px] h-[200px]">
+    <img :src="logoSVG" class="w-[223px] h-[200px]">
     <div class="mt-[60px] flex gap-[30px]">
       <a href="https://facebook.com" target="_blank">
         <img alt="facebook" class="h-[40px] w-[35px]" src="@/assets/facebook.svg" />
