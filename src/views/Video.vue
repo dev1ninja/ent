@@ -17,11 +17,11 @@ export default {
 </script>
 
 <template>
-  <div class="w-full px-28 flex flex-col mb-[120px]">
-    <div class="text-[white] font-bold text-3xl mt-[100px] ml-[110px]">
+  <div class="w-full px-8 md:px-28 flex flex-col mb-24">
+    <div class="text-[white] font-bold text-3xl mt-[100px]">
       Video
     </div>
-    <div class="mt-[4px] text-[white] text-xl ml-[110px]">
+    <div class="mt-[4px] text-[white] text-xl">
       Berbagai Informasi menarik bersama ENT Crews melalui konten YouTube.
     </div>
     <div class="mt-16 flex gap-10 flex-wrap md:flex-nowrap">
@@ -31,7 +31,7 @@ export default {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div class="relative">
+      <div class="relative mt-16 md:mt-0 md:ml-32">
         <div class="text-white font-medium text-xl absolute left-0 -top-10">
           Video lainya :
         </div>
