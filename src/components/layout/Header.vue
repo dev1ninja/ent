@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-<div class='w-full px-28 py-1 flex items-center gap-6 bg-[white] flex-col md:flex-row'>
+<div class='w-full px-28 py-1 flex items-center gap-6 bg-[white] flex-col md:flex-row md:fixed md:z-50'>
   <img src='/assets/s_logo.svg'  class='mr-28'>
   <button v-for="menu in menus" :key="menu" class="font-medium">{{menu}}</button>
   <div class='flex-1'></div>
