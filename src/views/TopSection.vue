@@ -8,9 +8,9 @@ export default {
 </script>
 
 <template>
-  <div class="relative">
-    <div class="w-full h-full top-0 flex bg-[url('../assets/Bg.png')] opacity-40 absolute bg-cover"></div>
-    <div class="w-full px-28 flex flex-col h-[740px] ">
+  <div class="relative overflow-hidden">
+    <div class="w-full h-[740px] flex bg-[url('../assets/Bg.png')] opacity-40 bg-cover"></div>
+    <div class="w-full px-28 absolute top-0 left-0 flex flex-col h-[740px]">
       <text class="text-[white] font-extrabold text-6xl mt-[183px]">
         Media ENT
       </text>

@@ -8,7 +8,7 @@ export default {
 
 <template>
 <div class='w-[410px] flex flex-row h-[120px]'>
-  <img src="../assets/small1.png" class='w-[204px] h-[120px] rounded-[10px]'> 
+  <img src="@/assets/small1.png" class='w-[204px] h-[120px] rounded-[10px]'> 
   <div class="ml-5">
     <div class="font-medium	text-xl text-white">
       {{ videoData?.title }}

@@ -7,9 +7,9 @@ export default {
   data() {
     return {
       videoDatas: [
-        { id: 0, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@assets/small1.png' },
-        { id: 1, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@assets/small2.png' },
-        { id: 2, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@assets/small3.png' },
+        { id: 0, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@/assets/small1.png' },
+        { id: 1, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@/assets/small2.png' },
+        { id: 2, title: 'Judul Vidio', desc: 'Deskripsi Lorem Ipsum Bla bla', videoLink: '@/assets/small3.png' },
       ]
     }
   },
