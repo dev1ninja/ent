@@ -29,7 +29,7 @@ export default {
     </div>
     <div class="mt-6 flex">
       <div>
-        <video class="w-[692px] h-[431px] bg-white rounded-[33px]" autoplay>
+        <video class="w-[692px] h-[431px] bg-white rounded-[33px]" controls>
           <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>

@@ -31,7 +31,44 @@ export default {
       </div>
     </Slide>
     <template #addons>
-      <Pagination />
+      <div class="carousel__pagination">
+        <Pagination class="" />
+      </div>
     </template>
   </Carousel>
 </template>
+
+<style>
+.carousel__pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  line-height: 0;
+  margin: 10px 0 0;
+  position: absolute;
+  bottom: 10px;
+}
+.carousel__pagination button{
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  padding: 4px;
+  background: transparent;
+}
+
+.carousel__pagination button::after {
+  /* display: block; */
+  /* content: ''; */
+  width: 40px;
+  height: 5px;
+  border-radius: 15px;
+  background-color: #D5D5D5;
+}
+
+.carousel__pagination button:hover::after,
+.carousel__pagination-button--active::after {
+  background-color: white !important;
+}
+
+</style>

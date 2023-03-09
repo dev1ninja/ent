@@ -31,7 +31,8 @@ export default {
   <div class="flex gap-8 mt-[1rem]">
     <div class="gap-[6px]">
       <button class="mt-5 font-semibold text-base">
-        <img src="@/assets/follow.svg" class="w-[23px] h-[23px]" />
+        <img v-if="forumData?.myFollowingStatus" src="@/assets/follow.svg" class="w-[23px] h-[23px]" />
+        <img v-else src="@/assets/unfollow.svg" class="w-[23px] h-[23px]" />
       </button>
       <text class="font-normal text-lg">{{ forumData?.follows }}</text>
     </div>
