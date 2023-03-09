@@ -11,10 +11,10 @@ export default {
 <template>
 <div class='w-full px-32 flex items-center gap-12 h-[408px] bg-[white]'>
   <div class="flex flex-col ml-20">
-    <img src='@/assets/Logo.svg' class="w-[223px] h-[200px]">
+    <img src="@/assets/Logo.svg" class="w-[223px] h-[200px]">
     <div class="mt-[60px] flex gap-[30px]">
       <a href="https://facebook.com" target="_blank">
-        <img alt="facebook" class="h-[40px] w-[35px]" src='@/assets/facebook.svg' />
+        <img alt="facebook" class="h-[40px] w-[35px]" src="@/assets/facebook.svg" />
       </a>
       <a href="https://instagram.com" target="_blank">
         <img alt="instagram" class="h-[40px] w-[50px]" src='@/assets/instagram.svg' />
