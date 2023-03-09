@@ -18,15 +18,15 @@ export default {
 </script>
 
 <template>
-  <div class="w-full px-28 flex flex-col">
-    <div class="text-[white] font-bold text-3xl mt-[100px] ml-[110px]">
+  <div class="w-full px-8 md:px-28 flex flex-col">
+    <div class="text-[white] font-bold text-3xl mt-[100px]">
       Artikel Terbaru
     </div>
-    <div class="mt-[4px] text-[white] font-normal text-xl ml-[110px]">
+    <div class="mt-[4px] text-[white] font-normal text-xl">
       Kumpulan artikel terbaru seputar kampus, teknologi, dan tren terkini.
     </div>
     
-    <div class="flex gap-5 mt-16">
+    <div class="flex gap-4 mt-16 flex-wrap">
       <ArticleItemVue 
         v-for="item in articleData"
         :article="item"

@@ -24,18 +24,20 @@ export default {
     <div class="mt-[4px] text-[white] text-xl ml-[110px]">
       Berbagai Informasi menarik bersama ENT Crews melalui konten YouTube.
     </div>
-    <div class="mt-10 ml-[830px] text-white font-medium text-xl">
-      Video lainya :
-    </div>
-    <div class="mt-6 flex">
-      <div>
+    <div class="mt-16 flex gap-10 flex-wrap md:flex-nowrap">
+      <div class="min-w-[300px] max-w-[450px]">
         <video class="w-[692px] h-[431px] bg-white rounded-[33px]" controls>
           <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
-      <div class="ml-[100px] gap-5 flex flex-col">
-        <VideoItem v-for="item in videoDatas" :videoData="item" :key="item.id"></VideoItem>
+      <div class="relative">
+        <div class="text-white font-medium text-xl absolute left-0 -top-10">
+          Video lainya :
+        </div>
+        <div class="gap-5 grow flex flex-col">
+          <VideoItem v-for="item in videoDatas" :videoData="item" :key="item.id"></VideoItem>
+        </div>
       </div>
     </div>
   </div>

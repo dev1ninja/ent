@@ -17,15 +17,15 @@ export default {
 </script>
 
 <template>
-  <div class="w-full px-28 flex flex-col">
-    <div class="text-[white] font-bold text-3xl mt-[100px] ml-[110px]">
+  <div class="w-full px-8 md:px-28 flex flex-col">
+    <div class="text-[white] font-bold text-3xl mt-[100px]">
       Forum
     </div>
-    <div class="mt-[4px] text-[white] text-xl ml-[110px]">
+    <div class="mt-[4px] text-[white] text-xl">
       Wadah komunikasi untuk menambah relasi dan berbagi informasi.
     </div>
     
-    <div class="flex gap-5 mt-16">
+    <div class="flex gap-4 mt-16 flex-wrap">
       <ForumItem
         v-for="item in forumDatas"
         :forumData="item"
