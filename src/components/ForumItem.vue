@@ -13,7 +13,7 @@ export default {
 <template>
 <div class='w-[387px] flex flex-col h-[270px] bg-[white] px-7 py-4 rounded-[33px]'>
   <div class="flex flex-row items-center">
-    <img src='@/assets/avatar.svg' class='w-[61px] h-[63px]'>
+    <img src='/assets/avatar.svg' class='w-[61px] h-[63px]'>
     <div class="flex flex-col ml-3">
       <text class="text-xl font-bold">
         {{ forumData?.name }}
@@ -31,14 +31,14 @@ export default {
   <div class="flex gap-8 mt-[1rem]">
     <div class="gap-[6px]">
       <button class="mt-5 font-semibold text-base">
-        <img v-if="forumData?.myFollowingStatus" src="@/assets/follow.svg" class="w-[23px] h-[23px]" />
-        <img v-else src="@/assets/unfollow.svg" class="w-[23px] h-[23px]" />
+        <img v-if="forumData?.myFollowingStatus" src="/assets/follow.svg" class="w-[23px] h-[23px]" />
+        <img v-else src="/assets/unfollow.svg" class="w-[23px] h-[23px]" />
       </button>
       <text class="font-normal text-lg">{{ forumData?.follows }}</text>
     </div>
     <div class="gap-[6px]">
       <button class="mt-5 font-semibold text-base">
-        <img src="@/assets/comment.svg" class="w-[23px] h-[23px]" />
+        <img src="/assets/comment.svg" class="w-[23px] h-[23px]" />
       </button>
       <text class="font-normal text-lg">{{ forumData?.comments }}</text>
     </div>
