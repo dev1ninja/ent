@@ -12,7 +12,9 @@ import TopSection from './TopSection.vue'
     <Header />
     <TopSection />
     <LatestArticle />
+    <div class="h-[80px]"></div>
     <Forum />
+    <div class="h-[80px]"></div>
     <Video />
     <Footer />
   </main>
