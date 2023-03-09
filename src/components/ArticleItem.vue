@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-<div class='w-[347px] flex flex-col h-[469px] bg-[white] px-5 pt-4 rounded-3xl relative'>
+<div class='w-[387px] flex flex-col h-[469px] bg-[white] px-5 pt-4 rounded-3xl relative'>
   <img src='/assets/sub1.png' class='w-full'>
   <button class="w-[70px] h-[31px] mt-3 rounded-[30px] bg-[#0C4A6E] font-semibold text-xs text-white">Lifestyle</button>
   <div class="w-full font-bold text-base mt-3">
