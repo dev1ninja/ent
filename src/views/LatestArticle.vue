@@ -19,14 +19,18 @@ export default {
 
 <template>
   <div class="w-full px-8 md:px-28 flex flex-col">
-    <div class="text-[white] font-bold text-3xl mt-[100px]">
+    <div class="md:ml-1 text-white mb-10 px-8 md:pl-24 mt-[100px] flex flex-col tablet:justify-center">
+      <text class="text-lg md:text-2xl font-bold">Artikel Terbaru</text>
+      <text class="text-xl md:text-sm font-normal"> Kumpulan artikel terbaru seputar kampus, teknologi, dan tren terkini. </text>
+    </div>
+    <!-- <div class="text-[white] font-bold text-3xl mt-[100px]">
       Artikel Terbaru
     </div>
     <div class="mt-[4px] text-[white] font-normal text-xl">
       Kumpulan artikel terbaru seputar kampus, teknologi, dan tren terkini.
-    </div>
+    </div> -->
     
-    <div class="flex gap-4 mt-16 flex-wrap">
+    <div class="sm:flex-wrap sm:flex gap-4 mt-16 container sm:justify-center mx-auto">
       <ArticleItemVue 
         v-for="item in articleData"
         :article="item"
