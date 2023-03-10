@@ -54,27 +54,27 @@ export default {
             </svg>
           </button>
         </div>
-        <div class='absolute z-50 top-[3rem] rounded-md shadow-lg w-48 origin-top-left left-0'
+        <div class='absolute z-50 top-[3rem] rounded-md shadow-lg w-48 origin-top-left left-0 sm:hidden'
           :style="[showMenu ? 'display: block' : 'display: none']">
           <div class="rounded-md ring-1 ring-black ring-opacity-5 py-1 bg-white">
             <button
               class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out"
-              @click="articleItemClicked">
+              @click="menuItemClicked">
               Article
             </button>
             <button
               class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out"
-              @click="articleItemClicked">
+              @click="menuItemClicked">
             Forum
           </button>
           <button
             class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out"
-            @click="articleItemClicked">
+            @click="menuItemClicked">
             Video
           </button>
           <button
             class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-800 transition duration-150 ease-in-out"
-            @click="articleItemClicked">
+            @click="menuItemClicked">
             About
           </button>
           </div>
