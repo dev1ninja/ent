@@ -18,14 +18,12 @@ export default {
 
 <template>
   <div class="w-full px-8 md:px-28 flex flex-col">
-    <div class="text-[white] font-bold text-3xl mt-[100px]">
-      Forum
-    </div>
-    <div class="mt-[4px] text-[white] text-xl">
-      Wadah komunikasi untuk menambah relasi dan berbagi informasi.
+    <div class="md:ml-1 text-white mb-10 px-8 md:pl-24 mt-[100px] flex flex-col tablet:justify-center">
+      <text class="text-lg md:text-2xl font-bold">Forum</text>
+      <text class="text-xl md:text-sm font-normal">Wadah komunikasi untuk menambah relasi dan berbagi informasi.</text>
     </div>
     
-    <div class="flex gap-4 mt-16 flex-wrap">
+    <div class="tablet:flex-wrap tablet:flex gap-4 container tablet:justify-center mx-auto">
       <ForumItem
         v-for="item in forumDatas"
         :forumData="item"

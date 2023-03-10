@@ -30,7 +30,7 @@ export default {
       Kumpulan artikel terbaru seputar kampus, teknologi, dan tren terkini.
     </div> -->
     
-    <div class="sm:flex-wrap sm:flex gap-4 mt-16 container sm:justify-center mx-auto">
+    <div class="tablet:flex-wrap tablet:flex gap-4 container tablet:justify-center mx-auto">
       <ArticleItemVue 
         v-for="item in articleData"
         :article="item"
